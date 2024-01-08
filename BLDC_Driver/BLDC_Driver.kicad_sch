@@ -1,5 +1,82 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 79b49c99-187d-43b0-945f-c7ef1bd05b80)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 184.15 90.17) (size 25.4 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a4094e20-472f-480b-8c97-e071ed32986b)
+    (property "Sheetname" "CONTROLLER" (at 184.15 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CONTROLLER.kicad_sch" (at 184.15 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 82.55 90.17) (size 25.4 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a96fa4bb-0946-4e44-bd72-e93c3563f5b1)
+    (property "Sheetname" "MCU" (at 82.55 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 82.55 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 114.3 90.17) (size 25.4 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c8c7e6c7-d998-4935-aebe-40ed7aa6cc60)
+    (property "Sheetname" "POWER_SUPPLY" (at 114.3 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "POWER_SUPPLY.kicad_sch" (at 114.3 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 149.86 90.17) (size 26.67 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ec5591db-91bd-4e40-8eca-b8ac168c3188)
+    (property "Sheetname" "HALFBRIDGE" (at 149.86 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "HALFBRIDGE.kicad_sch" (at 149.86 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

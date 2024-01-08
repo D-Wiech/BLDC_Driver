@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "extern_Footprints")(type "KiCad")(uri "C:/Users/Daniel/OneDrive/Etechnik/Projekte/BLDC_Driver/CAD/Footprints/KiCADv6/2024-01-08_19-04-28.kicad_sym")(options "")(descr ""))
+)

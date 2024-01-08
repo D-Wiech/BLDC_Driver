@@ -1,0 +1,5190 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid bf238268-1e96-4edb-a905-b7fb523f7182)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Device:C_Polarized_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_Polarized_Small" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Polarized capacitor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CP_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Polarized_Small_0_1"
+        (rectangle (start -1.524 -0.3048) (end 1.524 -0.6858)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start -1.524 0.6858) (end 1.524 0.3048)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 1.524)
+            (xy -0.762 1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 1.27)
+            (xy -1.016 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_Polarized_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 1.8542)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 1.8542)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_Small" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "capacitor cap" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Small_0_1"
+        (polyline
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
+          (stroke (width 0.3302) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
+          (stroke (width 0.3048) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:D_Schottky" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "D_Schottky" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "diode Schottky" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Schottky diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "D_Schottky_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.905 0.635)
+            (xy -1.905 1.27)
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 -0.635)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "D_Schottky_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:D_TVS" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "D_TVS" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "diode TVS thyrector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Bidirectional transient-voltage-suppression diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "D_TVS_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 1.27)
+            (xy 0 1.27)
+            (xy 0 -1.27)
+            (xy -0.508 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 1.27)
+            (xy -2.54 -1.27)
+            (xy 2.54 1.27)
+            (xy 2.54 -1.27)
+            (xy -2.54 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "D_TVS_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "A1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 0.762 0.508 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "R_Small" (at 0.762 -1.016 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_Small_0_1"
+        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 0.762)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 0.762)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:Thermistor_NTC" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "TH" (at -4.445 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Thermistor_NTC" (at 3.175 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "thermistor NTC resistor sensor RTD" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Temperature dependent resistor, negative temperature coefficient" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Thermistor_NTC_0_1"
+        (arc (start -3.048 2.159) (mid -3.0505 2.3165) (end -3.175 2.413)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start -3.048 2.159) (mid -2.9736 1.9794) (end -2.794 1.905)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start -3.048 2.794) (mid -2.9736 2.6144) (end -2.794 2.54)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start -2.794 1.905) (mid -2.6144 1.9794) (end -2.54 2.159)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start -2.794 2.54) (mid -2.434 2.5608) (end -2.159 2.794)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start -2.794 3.048) (mid -2.9736 2.9736) (end -3.048 2.794)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start -2.54 2.794) (mid -2.6144 2.9736) (end -2.794 3.048)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.016 2.54) (end 1.016 -2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 2.159)
+            (xy -2.54 2.794)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 2.54)
+            (xy -1.778 1.524)
+            (xy 1.778 -1.524)
+            (xy 1.778 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -3.683)
+            (xy -2.54 -1.397)
+            (xy -2.794 -2.159)
+            (xy -2.286 -2.159)
+            (xy -2.54 -1.397)
+            (xy -2.54 -1.651)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy -1.778 -1.397)
+            (xy -1.778 -3.683)
+            (xy -2.032 -2.921)
+            (xy -1.524 -2.921)
+            (xy -1.778 -3.683)
+            (xy -1.778 -3.429)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "Thermistor_NTC_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
+    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_Pad_0_1"
+        (circle (center 0 1.27) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "MountingHole_Pad_1_1"
+        (pin input line (at 0 -2.54 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Transistor_FET:Si7336ADP" (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (at 5.08 1.905 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Si7336ADP" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Package_SO:PowerPAK_SO-8_Single" (at 5.08 -1.905 0)
+        (effects (font (size 1.27 1.27) italic) (justify left) hide)
+      )
+      (property "Datasheet" "https://www.vishay.com/docs/73152/si7336adp.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "ki_keywords" "N-Channel MOSFET" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "30A Id, 30V Vds, 2.4mOhm Ron, PowerPAK-8" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "PowerPAK*SO*Single*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Si7336ADP_0_1"
+        (polyline
+          (pts
+            (xy 0.254 0)
+            (xy -2.54 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.27)
+            (xy 0.762 -2.286)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 0.508)
+            (xy 0.762 -0.508)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 2.286)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy 2.54 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 0)
+            (xy 2.032 0.381)
+            (xy 2.032 -0.381)
+            (xy 1.016 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 2.794 0.508)
+            (xy 2.921 0.381)
+            (xy 3.683 0.381)
+            (xy 3.81 0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.302 0.381)
+            (xy 2.921 -0.254)
+            (xy 3.683 -0.254)
+            (xy 3.302 0.381)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 1.651 0) (radius 2.794)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.54 -1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 2.54 1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "Si7336ADP_1_1"
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54) hide
+          (name "S" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54) hide
+          (name "S" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -5.08 0 0) (length 2.54)
+          (name "G" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "D" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:+BATT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+BATT" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag battery" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+BATT\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+BATT_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+BATT_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+BATT" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GNDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GNDD" (at 0 -3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GNDD\" , digital ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GNDD_0_1"
+        (rectangle (start -1.27 -1.524) (end 1.27 -2.032)
+          (stroke (width 0.254) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GNDD_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GNDD" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GNDPWR" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GNDPWR" (at 0 -3.302 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GNDPWR\" , power ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GNDPWR_0_1"
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 -1.27)
+            (xy -1.27 -2.032)
+            (xy -1.27 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.508 -1.27)
+            (xy -0.762 -2.032)
+            (xy -0.762 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy -0.254 -2.032)
+            (xy -0.254 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 -1.27)
+            (xy 0.254 -2.032)
+            (xy 0.254 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.27)
+            (xy -1.016 -1.27)
+            (xy -1.016 -1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.27)
+            (xy 0.762 -2.032)
+            (xy 0.762 -2.032)
+            (xy 0.762 -2.032)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GNDPWR_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GNDPWR" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 88.9 78.74) (diameter 0) (color 0 0 0 0)
+    (uuid 002b78d4-6a50-44c8-a539-37452ecb6c0e)
+  )
+  (junction (at 152.4 177.8) (diameter 0) (color 0 0 0 0)
+    (uuid 01571317-a763-482d-b8ee-ca601d9c861b)
+  )
+  (junction (at 55.88 180.34) (diameter 0) (color 0 0 0 0)
+    (uuid 04350ab8-d1c7-494d-9353-009ebdf004b2)
+  )
+  (junction (at 72.39 180.34) (diameter 0) (color 0 0 0 0)
+    (uuid 106ff762-c9b6-451d-9dd5-0f1f29cf931a)
+  )
+  (junction (at 31.75 146.05) (diameter 0) (color 0 0 0 0)
+    (uuid 10d3f1d8-80b9-4d1f-946e-8329d526e29d)
+  )
+  (junction (at 195.58 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid 13392d94-a9a1-4b52-92ab-e1a27a25092b)
+  )
+  (junction (at 52.07 180.34) (diameter 0) (color 0 0 0 0)
+    (uuid 2f452adc-a36f-4329-a906-bbc9831ab67e)
+  )
+  (junction (at 93.98 175.26) (diameter 0) (color 0 0 0 0)
+    (uuid 3185cbb1-3e42-4947-b29e-5cdd221d85a0)
+  )
+  (junction (at 52.07 175.26) (diameter 0) (color 0 0 0 0)
+    (uuid 31c623d1-ee6e-4721-9b4b-90dcd3f366b2)
+  )
+  (junction (at 83.82 180.34) (diameter 0) (color 0 0 0 0)
+    (uuid 35bcb568-4acd-4793-b4b8-46022eed0050)
+  )
+  (junction (at 166.37 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid 3b69df30-93fb-4fdc-bfe6-88ff404d8684)
+  )
+  (junction (at 189.23 76.2) (diameter 0) (color 0 0 0 0)
+    (uuid 3ba4418a-b0e6-422a-a2b9-231cd0d79ac7)
+  )
+  (junction (at 255.27 54.61) (diameter 0) (color 0 0 0 0)
+    (uuid 41c7015a-2009-4c75-a393-7b9351f1d34f)
+  )
+  (junction (at 67.31 58.42) (diameter 0) (color 0 0 0 0)
+    (uuid 422b715e-065a-45bf-92bf-00f62e653073)
+  )
+  (junction (at 45.72 175.26) (diameter 0) (color 0 0 0 0)
+    (uuid 48df7e37-c709-4a0f-8141-0ffb8aa8386d)
+  )
+  (junction (at 53.34 88.9) (diameter 0) (color 0 0 0 0)
+    (uuid 52d48827-d8c1-49b5-ba7c-9a7ebcfb8931)
+  )
+  (junction (at 102.87 175.26) (diameter 0) (color 0 0 0 0)
+    (uuid 5b4478f9-52a6-4d99-ae4f-2aec017a6b0a)
+  )
+  (junction (at 88.9 76.2) (diameter 0) (color 0 0 0 0)
+    (uuid 5f41b956-61f1-4665-a32a-2ffd6d45865b)
+  )
+  (junction (at 93.98 180.34) (diameter 0) (color 0 0 0 0)
+    (uuid 6289e237-49d1-4588-a3e8-a95001afbee1)
+  )
+  (junction (at 189.23 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid 65220d44-1573-4950-89a9-a329bb02a1e9)
+  )
+  (junction (at 147.32 87.63) (diameter 0) (color 0 0 0 0)
+    (uuid 657438b0-8fdc-4b85-af77-f2a4dfd6423f)
+  )
+  (junction (at 38.1 143.51) (diameter 0) (color 0 0 0 0)
+    (uuid 6709b533-269b-41fa-ae4f-3ff1d1673456)
+  )
+  (junction (at 91.44 86.36) (diameter 0) (color 0 0 0 0)
+    (uuid 6d90bf92-df1b-43a8-ab31-9728acd5ca70)
+  )
+  (junction (at 53.34 54.61) (diameter 0) (color 0 0 0 0)
+    (uuid 6e745237-f38f-44d3-a9f5-5d2b9f38bd79)
+  )
+  (junction (at 34.29 153.67) (diameter 0) (color 0 0 0 0)
+    (uuid 71cb9b67-27d7-4ae3-9590-bb1dd5cdd770)
+  )
+  (junction (at 31.75 143.51) (diameter 0) (color 0 0 0 0)
+    (uuid 79093a8f-1a20-4ae0-857b-2aa69bc5af98)
+  )
+  (junction (at 66.04 180.34) (diameter 0) (color 0 0 0 0)
+    (uuid 7c3646cd-bf79-433c-ac95-d063e576c0c0)
+  )
+  (junction (at 152.4 175.26) (diameter 0) (color 0 0 0 0)
+    (uuid 8e3fbc89-5cfa-46ab-b084-a314081d0900)
+  )
+  (junction (at 147.32 82.55) (diameter 0) (color 0 0 0 0)
+    (uuid 8f8486d4-478e-4006-b83d-51bec54bff87)
+  )
+  (junction (at 72.39 175.26) (diameter 0) (color 0 0 0 0)
+    (uuid 9d6d489e-c411-45d5-bf32-56a268697a81)
+  )
+  (junction (at 45.72 180.34) (diameter 0) (color 0 0 0 0)
+    (uuid 9e333179-7e01-45e3-82dd-e980e7b14802)
+  )
+  (junction (at 191.77 83.82) (diameter 0) (color 0 0 0 0)
+    (uuid a33c2473-f332-4c95-b4b9-c56dcc497fed)
+  )
+  (junction (at 53.34 83.82) (diameter 0) (color 0 0 0 0)
+    (uuid ada1a79b-bf6d-4416-af52-6e819d7fbe72)
+  )
+  (junction (at 62.23 175.26) (diameter 0) (color 0 0 0 0)
+    (uuid b1251738-9794-4d40-a56e-4d2b43752618)
+  )
+  (junction (at 240.03 53.34) (diameter 0) (color 0 0 0 0)
+    (uuid b2095eb2-a542-41ad-934b-e95e51019c70)
+  )
+  (junction (at 270.51 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid b4417a3c-ff32-42e7-b207-1d8db15449d4)
+  )
+  (junction (at 62.23 180.34) (diameter 0) (color 0 0 0 0)
+    (uuid b5b70362-5218-482f-9435-2b77106bfd59)
+  )
+  (junction (at 240.03 54.61) (diameter 0) (color 0 0 0 0)
+    (uuid bb1f7483-cd34-4fb9-8bc8-6a6f9b2a945d)
+  )
+  (junction (at 240.03 87.63) (diameter 0) (color 0 0 0 0)
+    (uuid bcbb23e6-37df-4afb-af4d-59c87354d49c)
+  )
+  (junction (at 273.05 81.28) (diameter 0) (color 0 0 0 0)
+    (uuid bed5772d-212a-4c84-8a6d-45850d22bb59)
+  )
+  (junction (at 83.82 175.26) (diameter 0) (color 0 0 0 0)
+    (uuid c20f948a-18ad-409d-a0ed-46d5ef9395a7)
+  )
+  (junction (at 240.03 80.01) (diameter 0) (color 0 0 0 0)
+    (uuid c8c3d423-d122-41d1-8170-baac7e59cfb8)
+  )
+  (junction (at 102.87 180.34) (diameter 0) (color 0 0 0 0)
+    (uuid d25640de-c075-4462-ad8e-6f69e02066d4)
+  )
+  (junction (at 270.51 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid da33d87b-4762-407c-a7e7-926cdf969f7a)
+  )
+  (junction (at 53.34 58.42) (diameter 0) (color 0 0 0 0)
+    (uuid db647ae8-6eea-4fb3-ad4e-eaed3fe7f557)
+  )
+  (junction (at 147.32 53.34) (diameter 0) (color 0 0 0 0)
+    (uuid eb0cc906-3c74-4bcf-8374-1fc496ee0029)
+  )
+  (junction (at 154.94 185.42) (diameter 0) (color 0 0 0 0)
+    (uuid ee245224-89a2-4c5a-83ae-96b9d9838e1b)
+  )
+  (junction (at 147.32 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid f054484e-cae9-4e53-b3f3-ba9eecfc0b91)
+  )
+
+  (wire (pts (xy 270.51 81.28) (xy 273.05 81.28))
+    (stroke (width 0) (type default))
+    (uuid 000412f3-25c8-45f0-98bf-c6992df9937d)
+  )
+  (wire (pts (xy 102.87 181.61) (xy 102.87 180.34))
+    (stroke (width 0) (type default))
+    (uuid 05f2167c-fe45-41f6-bc96-84dcf8fcce73)
+  )
+  (wire (pts (xy 88.9 76.2) (xy 88.9 78.74))
+    (stroke (width 0) (type default))
+    (uuid 0678b0ff-534d-4a17-ae0a-85c4062d04d1)
+  )
+  (wire (pts (xy 38.1 143.51) (xy 41.91 143.51))
+    (stroke (width 0) (type default))
+    (uuid 06fc0be2-3181-42fc-8752-2e8d735aa942)
+  )
+  (polyline (pts (xy 137.16 195.58) (xy 175.26 195.58))
+    (stroke (width 0) (type default))
+    (uuid 08e5366b-770d-416d-8fb4-5b315eb26ea9)
+  )
+
+  (wire (pts (xy 31.75 128.27) (xy 31.75 127))
+    (stroke (width 0) (type default))
+    (uuid 0ad4ee72-a611-4c7f-915d-3150152459c9)
+  )
+  (wire (pts (xy 157.48 185.42) (xy 157.48 182.88))
+    (stroke (width 0) (type default))
+    (uuid 0c96521d-c198-4408-9d1f-556480c44cf8)
+  )
+  (wire (pts (xy 152.4 182.88) (xy 152.4 185.42))
+    (stroke (width 0) (type default))
+    (uuid 0dad840d-5c3e-4141-a1e5-dce0e676f009)
+  )
+  (wire (pts (xy 147.32 36.83) (xy 147.32 34.29))
+    (stroke (width 0) (type default))
+    (uuid 0ff40427-b8db-4f55-b458-6f1da289054e)
+  )
+  (wire (pts (xy 195.58 73.66) (xy 189.23 73.66))
+    (stroke (width 0) (type default))
+    (uuid 0ffbf04e-3b7e-46fe-b670-6c6df92edb36)
+  )
+  (wire (pts (xy 240.03 80.01) (xy 240.03 81.28))
+    (stroke (width 0) (type default))
+    (uuid 127195ff-d738-4252-b898-024483773c7c)
+  )
+  (wire (pts (xy 270.51 68.58) (xy 270.51 71.12))
+    (stroke (width 0) (type default))
+    (uuid 143ea89c-8264-4a88-9e3d-90b74d5227d8)
+  )
+  (wire (pts (xy 53.34 48.26) (xy 53.34 54.61))
+    (stroke (width 0) (type default))
+    (uuid 14c62243-91b6-4cc1-be68-7cc059cb1912)
+  )
+  (polyline (pts (xy 209.55 19.05) (xy 209.55 142.24))
+    (stroke (width 0) (type default))
+    (uuid 14f1f3ac-752a-485f-a826-80eb50cafeeb)
+  )
+
+  (wire (pts (xy 147.32 53.34) (xy 147.32 55.88))
+    (stroke (width 0) (type default))
+    (uuid 1951d0e9-c5e3-47a5-9bd8-7bc782200147)
+  )
+  (wire (pts (xy 147.32 87.63) (xy 160.02 87.63))
+    (stroke (width 0) (type default))
+    (uuid 1ab85bed-fedf-45b5-9255-1e5fe7335aeb)
+  )
+  (wire (pts (xy 194.31 76.2) (xy 189.23 76.2))
+    (stroke (width 0) (type default))
+    (uuid 1de25ee0-8ab7-46c5-a1f8-af9c1f32f7af)
+  )
+  (wire (pts (xy 93.98 175.26) (xy 83.82 175.26))
+    (stroke (width 0) (type default))
+    (uuid 1f4cfe60-38db-4a79-bb1a-bdae2dbbe4a8)
+  )
+  (wire (pts (xy 34.29 153.67) (xy 36.83 153.67))
+    (stroke (width 0) (type default))
+    (uuid 21c3a681-9bae-4e8b-b9f7-ff1038f8ce23)
+  )
+  (wire (pts (xy 152.4 175.26) (xy 152.4 177.8))
+    (stroke (width 0) (type default))
+    (uuid 2ad458dd-88a9-4f47-bf08-abf3fbfe5bc6)
+  )
+  (wire (pts (xy 152.4 163.83) (xy 152.4 165.1))
+    (stroke (width 0) (type default))
+    (uuid 2bebbb9f-1d42-40b3-a0a0-b15ae8fef8b6)
+  )
+  (wire (pts (xy 62.23 180.34) (xy 66.04 180.34))
+    (stroke (width 0) (type default))
+    (uuid 2d65f457-24f6-4951-83c4-8d90d7e3a036)
+  )
+  (wire (pts (xy 31.75 143.51) (xy 31.75 146.05))
+    (stroke (width 0) (type default))
+    (uuid 2e310a4b-9b35-4025-a719-704eeb7dc5e3)
+  )
+  (wire (pts (xy 72.39 180.34) (xy 83.82 180.34))
+    (stroke (width 0) (type default))
+    (uuid 2f62aa12-8329-4891-ae79-89572895c430)
+  )
+  (wire (pts (xy 152.4 172.72) (xy 152.4 175.26))
+    (stroke (width 0) (type default))
+    (uuid 2fc09b64-08f8-4482-b6e0-eabe30d1eace)
+  )
+  (wire (pts (xy 147.32 87.63) (xy 147.32 95.25))
+    (stroke (width 0) (type default))
+    (uuid 30068d7d-e735-469b-b8ed-da0db2859196)
+  )
+  (wire (pts (xy 153.67 175.26) (xy 152.4 175.26))
+    (stroke (width 0) (type default))
+    (uuid 3066914b-f9a6-483e-b670-c8c3be51fab9)
+  )
+  (wire (pts (xy 240.03 46.99) (xy 240.03 53.34))
+    (stroke (width 0) (type default))
+    (uuid 307f6652-1830-485a-bce8-38dae3efc88d)
+  )
+  (wire (pts (xy 147.32 46.99) (xy 147.32 53.34))
+    (stroke (width 0) (type default))
+    (uuid 319bfd20-fad9-452b-8852-5022f30536e0)
+  )
+  (wire (pts (xy 157.48 177.8) (xy 152.4 177.8))
+    (stroke (width 0) (type default))
+    (uuid 31cf9cd7-c4cc-4b42-82f6-fa5c265db024)
+  )
+  (wire (pts (xy 191.77 83.82) (xy 194.31 83.82))
+    (stroke (width 0) (type default))
+    (uuid 329a570a-a1ef-4d72-ab6a-d46353d9391f)
+  )
+  (wire (pts (xy 95.25 76.2) (xy 88.9 76.2))
+    (stroke (width 0) (type default))
+    (uuid 333300b2-5488-4774-99a6-474172886fc2)
+  )
+  (wire (pts (xy 270.51 63.5) (xy 270.51 60.96))
+    (stroke (width 0) (type default))
+    (uuid 33b0bdd2-809e-47fa-b6c8-e2886182a3ab)
+  )
+  (wire (pts (xy 147.32 55.88) (xy 147.32 59.69))
+    (stroke (width 0) (type default))
+    (uuid 34f27bbb-3443-4d65-8537-9b6121edabd5)
+  )
+  (wire (pts (xy 52.07 175.26) (xy 45.72 175.26))
+    (stroke (width 0) (type default))
+    (uuid 355328f1-7e49-4a45-a15b-398717360370)
+  )
+  (wire (pts (xy 31.75 140.97) (xy 31.75 143.51))
+    (stroke (width 0) (type default))
+    (uuid 377675ce-6af2-41ad-a3c3-cc98d8820362)
+  )
+  (wire (pts (xy 93.98 78.74) (xy 88.9 78.74))
+    (stroke (width 0) (type default))
+    (uuid 3990da7c-872c-45dd-92dc-088eb99dada8)
+  )
+  (wire (pts (xy 22.86 175.26) (xy 45.72 175.26))
+    (stroke (width 0) (type default))
+    (uuid 3b15f686-16b6-4d5a-9838-450141c874eb)
+  )
+  (wire (pts (xy 66.04 180.34) (xy 72.39 180.34))
+    (stroke (width 0) (type default))
+    (uuid 3d09eebe-3216-4fae-ab56-f82c58b3fc6d)
+  )
+  (wire (pts (xy 52.07 180.34) (xy 55.88 180.34))
+    (stroke (width 0) (type default))
+    (uuid 3f7761e8-3beb-439d-8ae0-744235d6891b)
+  )
+  (wire (pts (xy 102.87 180.34) (xy 93.98 180.34))
+    (stroke (width 0) (type default))
+    (uuid 3fded2d7-bad0-4c2c-8347-19c4d1f08bd8)
+  )
+  (wire (pts (xy 53.34 58.42) (xy 53.34 60.96))
+    (stroke (width 0) (type default))
+    (uuid 4620dbee-7124-4fa3-86fb-969f26fdc293)
+  )
+  (wire (pts (xy 88.9 68.58) (xy 88.9 66.04))
+    (stroke (width 0) (type default))
+    (uuid 483fe3e2-2a47-461c-bf53-6c613326c1bf)
+  )
+  (polyline (pts (xy 115.57 16.51) (xy 115.57 140.97))
+    (stroke (width 0) (type default))
+    (uuid 4907bc09-205d-4eb9-9b30-e2adbc53e216)
+  )
+
+  (wire (pts (xy 104.14 175.26) (xy 102.87 175.26))
+    (stroke (width 0) (type default))
+    (uuid 4a140e11-1e49-4763-806f-302614a0e583)
+  )
+  (wire (pts (xy 240.03 87.63) (xy 240.03 95.25))
+    (stroke (width 0) (type default))
+    (uuid 4a88af27-9c33-49ab-92ab-4a2cfab1908c)
+  )
+  (wire (pts (xy 240.03 54.61) (xy 240.03 59.69))
+    (stroke (width 0) (type default))
+    (uuid 4cc73b07-faff-4b39-b1ad-f41f2c00833f)
+  )
+  (wire (pts (xy 53.34 38.1) (xy 53.34 35.56))
+    (stroke (width 0) (type default))
+    (uuid 4d406b26-7bab-49ad-9389-756aa7105076)
+  )
+  (wire (pts (xy 66.04 180.34) (xy 66.04 182.88))
+    (stroke (width 0) (type default))
+    (uuid 4f750d24-420d-4ef0-ac75-6e8334102eef)
+  )
+  (wire (pts (xy 276.86 71.12) (xy 270.51 71.12))
+    (stroke (width 0) (type default))
+    (uuid 5344e591-f56f-4712-98e2-f6b3234270b4)
+  )
+  (wire (pts (xy 240.03 80.01) (xy 241.3 80.01))
+    (stroke (width 0) (type default))
+    (uuid 56139817-6844-4f5b-b64f-df758b97ffcb)
+  )
+  (wire (pts (xy 52.07 180.34) (xy 45.72 180.34))
+    (stroke (width 0) (type default))
+    (uuid 5785181b-5e8e-43c6-8e37-f8804220df5d)
+  )
+  (wire (pts (xy 189.23 83.82) (xy 191.77 83.82))
+    (stroke (width 0) (type default))
+    (uuid 578bbbf5-2809-49b4-ba90-454d5d061b20)
+  )
+  (wire (pts (xy 88.9 86.36) (xy 91.44 86.36))
+    (stroke (width 0) (type default))
+    (uuid 57b75357-d022-4a47-9867-2ebe479c7168)
+  )
+  (wire (pts (xy 38.1 143.51) (xy 31.75 143.51))
+    (stroke (width 0) (type default))
+    (uuid 5b6865a1-7eea-4663-a39e-f9726d6c5004)
+  )
+  (wire (pts (xy 44.45 43.18) (xy 45.72 43.18))
+    (stroke (width 0) (type default))
+    (uuid 5d862a2a-2cd0-4de5-a632-a6c1a50c3c7d)
+  )
+  (wire (pts (xy 189.23 81.28) (xy 189.23 83.82))
+    (stroke (width 0) (type default))
+    (uuid 5dd21801-c193-4af6-acbd-87b7b5c71106)
+  )
+  (wire (pts (xy 93.98 180.34) (xy 83.82 180.34))
+    (stroke (width 0) (type default))
+    (uuid 5df369e8-4f9f-4085-a74a-79dca00bbfe6)
+  )
+  (wire (pts (xy 88.9 73.66) (xy 88.9 76.2))
+    (stroke (width 0) (type default))
+    (uuid 5faecc87-09a7-48f2-bf52-fa7e723ea9b9)
+  )
+  (wire (pts (xy 138.43 64.77) (xy 139.7 64.77))
+    (stroke (width 0) (type default))
+    (uuid 60f4d192-d98d-47ab-8272-75859a700fce)
+  )
+  (wire (pts (xy 53.34 88.9) (xy 53.34 96.52))
+    (stroke (width 0) (type default))
+    (uuid 626ccfe1-f273-44ea-81de-367a8b0f7ed1)
+  )
+  (wire (pts (xy 147.32 82.55) (xy 160.02 82.55))
+    (stroke (width 0) (type default))
+    (uuid 68cb3c42-7c8b-4f47-8ba7-97cc4065118b)
+  )
+  (wire (pts (xy 102.87 173.99) (xy 102.87 175.26))
+    (stroke (width 0) (type default))
+    (uuid 692c11ed-e79b-46fd-8d08-c57c41447eae)
+  )
+  (wire (pts (xy 189.23 71.12) (xy 189.23 73.66))
+    (stroke (width 0) (type default))
+    (uuid 6d76b383-79b7-40be-8592-b974f810126e)
+  )
+  (wire (pts (xy 143.51 53.34) (xy 147.32 53.34))
+    (stroke (width 0) (type default))
+    (uuid 6f64abdf-e56b-48ad-a3e3-a3e2a1b14b6c)
+  )
+  (polyline (pts (xy 13.97 162.56) (xy 60.96 162.56))
+    (stroke (width 0) (type default))
+    (uuid 6f6be236-4495-49c9-b04c-9bcf2f19d70c)
+  )
+
+  (wire (pts (xy 36.83 153.67) (xy 36.83 151.13))
+    (stroke (width 0) (type default))
+    (uuid 717d6a99-1836-49e2-81b4-2b1641df4fc6)
+  )
+  (wire (pts (xy 38.1 137.16) (xy 38.1 143.51))
+    (stroke (width 0) (type default))
+    (uuid 7533f871-499c-4a75-afc7-ad78defb7e8a)
+  )
+  (wire (pts (xy 189.23 58.42) (xy 189.23 57.15))
+    (stroke (width 0) (type default))
+    (uuid 77e8cc98-37d1-4edc-b7bd-d35d252c9ea1)
+  )
+  (wire (pts (xy 231.14 41.91) (xy 232.41 41.91))
+    (stroke (width 0) (type default))
+    (uuid 798572c1-7fd0-4fa8-bfa3-74c94b829d14)
+  )
+  (wire (pts (xy 22.86 173.99) (xy 22.86 175.26))
+    (stroke (width 0) (type default))
+    (uuid 7bc987cd-43e6-422c-bc01-bcd7a21339ad)
+  )
+  (wire (pts (xy 276.86 64.77) (xy 276.86 71.12))
+    (stroke (width 0) (type default))
+    (uuid 7bf41ce2-4141-4189-95af-1bee8807b28d)
+  )
+  (wire (pts (xy 195.58 73.66) (xy 196.85 73.66))
+    (stroke (width 0) (type default))
+    (uuid 7d90b4a1-15cd-449f-8d82-639918e0aabe)
+  )
+  (wire (pts (xy 88.9 60.96) (xy 88.9 59.69))
+    (stroke (width 0) (type default))
+    (uuid 7f1016cc-a074-41d2-9a04-c661eac35eb6)
+  )
+  (wire (pts (xy 52.07 54.61) (xy 53.34 54.61))
+    (stroke (width 0) (type default))
+    (uuid 81765f5e-7e25-4d9a-8fcd-06b2fd962a45)
+  )
+  (wire (pts (xy 138.43 41.91) (xy 139.7 41.91))
+    (stroke (width 0) (type default))
+    (uuid 82c2767a-2eaa-4134-814c-79d59f99f25a)
+  )
+  (wire (pts (xy 31.75 135.89) (xy 31.75 133.35))
+    (stroke (width 0) (type default))
+    (uuid 886b31e6-288c-4a99-b7f1-cb97674c1f18)
+  )
+  (wire (pts (xy 270.51 71.12) (xy 270.51 73.66))
+    (stroke (width 0) (type default))
+    (uuid 89aefd25-0ffd-4d3b-b07c-554c6d242fe4)
+  )
+  (wire (pts (xy 240.03 86.36) (xy 240.03 87.63))
+    (stroke (width 0) (type default))
+    (uuid 89f89de6-be1c-417e-b6b7-05ddff4b6267)
+  )
+  (wire (pts (xy 255.27 54.61) (xy 270.51 54.61))
+    (stroke (width 0) (type default))
+    (uuid 8e9980d2-b70c-4ed4-8944-2321c0b806e9)
+  )
+  (wire (pts (xy 45.72 175.26) (xy 45.72 172.72))
+    (stroke (width 0) (type default))
+    (uuid 8ea6400e-55ad-4b7a-82de-0de195e53491)
+  )
+  (wire (pts (xy 240.03 53.34) (xy 240.03 54.61))
+    (stroke (width 0) (type default))
+    (uuid 8eb5bfdc-ddf6-4ade-9921-b02b13b663d0)
+  )
+  (wire (pts (xy 102.87 175.26) (xy 93.98 175.26))
+    (stroke (width 0) (type default))
+    (uuid 91a56a78-8a61-4ad7-b575-0dec73e5d2f6)
+  )
+  (wire (pts (xy 31.75 151.13) (xy 31.75 153.67))
+    (stroke (width 0) (type default))
+    (uuid 921e9c2d-de07-419b-b966-d6baed003c8f)
+  )
+  (wire (pts (xy 95.25 69.85) (xy 95.25 76.2))
+    (stroke (width 0) (type default))
+    (uuid 9310d5fa-9c2f-4ad4-877c-ddfe1e3f2646)
+  )
+  (wire (pts (xy 240.03 87.63) (xy 241.3 87.63))
+    (stroke (width 0) (type default))
+    (uuid 96f95d7f-2f87-48d3-8dba-c4df7948c082)
+  )
+  (wire (pts (xy 55.88 182.88) (xy 55.88 180.34))
+    (stroke (width 0) (type default))
+    (uuid 99cc22da-d258-4581-ac2f-2d1fe1b3bbeb)
+  )
+  (wire (pts (xy 195.58 67.31) (xy 195.58 73.66))
+    (stroke (width 0) (type default))
+    (uuid 9e262013-523c-483a-bb42-718bb35df542)
+  )
+  (wire (pts (xy 167.64 57.15) (xy 166.37 55.88))
+    (stroke (width 0) (type default))
+    (uuid 9fba7fe0-4f1c-4002-b626-017a88c07636)
+  )
+  (polyline (pts (xy 175.26 195.58) (xy 175.26 149.86))
+    (stroke (width 0) (type default))
+    (uuid a105cc26-e86d-4051-9df2-9f49a8739baf)
+  )
+
+  (wire (pts (xy 273.05 81.28) (xy 275.59 81.28))
+    (stroke (width 0) (type default))
+    (uuid a38b5399-74bf-4e4a-8506-c87f8cb6aa09)
+  )
+  (wire (pts (xy 154.94 185.42) (xy 157.48 185.42))
+    (stroke (width 0) (type default))
+    (uuid a394db54-9b5a-460f-a2c5-005aedef4c2a)
+  )
+  (wire (pts (xy 189.23 73.66) (xy 189.23 76.2))
+    (stroke (width 0) (type default))
+    (uuid a3ea212e-beaf-4deb-a5ce-3a9e453086be)
+  )
+  (wire (pts (xy 118.11 181.61) (xy 102.87 181.61))
+    (stroke (width 0) (type default))
+    (uuid a590efd4-36ff-49ca-befa-81012c8c77f0)
+  )
+  (wire (pts (xy 95.25 62.23) (xy 95.25 59.69))
+    (stroke (width 0) (type default))
+    (uuid a5a647df-f24e-4857-894b-10b7d3a438ea)
+  )
+  (wire (pts (xy 240.03 69.85) (xy 240.03 80.01))
+    (stroke (width 0) (type default))
+    (uuid a5edb9c3-34af-450a-a0db-68a0e15bcb28)
+  )
+  (polyline (pts (xy 137.16 149.86) (xy 137.16 195.58))
+    (stroke (width 0) (type default))
+    (uuid a6cb7544-1b1a-4c52-94f1-2812eb27b8b9)
+  )
+
+  (wire (pts (xy 236.22 53.34) (xy 240.03 53.34))
+    (stroke (width 0) (type default))
+    (uuid ab639193-89e2-4b1e-8a2f-d8673332acc7)
+  )
+  (wire (pts (xy 147.32 69.85) (xy 147.32 82.55))
+    (stroke (width 0) (type default))
+    (uuid ac6afff4-01db-4c43-95a3-6282a8eeba20)
+  )
+  (wire (pts (xy 53.34 88.9) (xy 58.42 88.9))
+    (stroke (width 0) (type default))
+    (uuid ae02ed5d-8774-4ab7-b5bc-a55045129611)
+  )
+  (wire (pts (xy 88.9 83.82) (xy 88.9 86.36))
+    (stroke (width 0) (type default))
+    (uuid b018cc55-4cc4-46cb-9747-000683d77574)
+  )
+  (wire (pts (xy 45.72 182.88) (xy 45.72 180.34))
+    (stroke (width 0) (type default))
+    (uuid b2252633-fa05-471d-a8b6-0a57c12d2ee8)
+  )
+  (polyline (pts (xy 13.97 114.3) (xy 13.97 162.56))
+    (stroke (width 0) (type default))
+    (uuid b23423b1-46e8-4faa-8117-2482c19288fd)
+  )
+
+  (wire (pts (xy 189.23 57.15) (xy 167.64 57.15))
+    (stroke (width 0) (type default))
+    (uuid b6e66eb5-bd65-4376-80cb-601658511385)
+  )
+  (wire (pts (xy 68.58 59.69) (xy 67.31 58.42))
+    (stroke (width 0) (type default))
+    (uuid b9833ea1-a686-4447-a5ed-a2893e1c0b3a)
+  )
+  (wire (pts (xy 72.39 175.26) (xy 83.82 175.26))
+    (stroke (width 0) (type default))
+    (uuid ba03340a-9130-4052-bc79-b16678ea9226)
+  )
+  (wire (pts (xy 91.44 86.36) (xy 93.98 86.36))
+    (stroke (width 0) (type default))
+    (uuid ba0a611d-11ae-4048-bd7c-4c834a2b505b)
+  )
+  (wire (pts (xy 118.11 173.99) (xy 102.87 173.99))
+    (stroke (width 0) (type default))
+    (uuid baa59d93-b6d2-4d09-914e-5d2d2c997f59)
+  )
+  (wire (pts (xy 275.59 73.66) (xy 270.51 73.66))
+    (stroke (width 0) (type default))
+    (uuid bc6327ba-4a45-4545-b171-99b817757fac)
+  )
+  (wire (pts (xy 152.4 185.42) (xy 154.94 185.42))
+    (stroke (width 0) (type default))
+    (uuid bc968bdf-1630-4954-9af6-176a0ddd443e)
+  )
+  (wire (pts (xy 189.23 66.04) (xy 189.23 63.5))
+    (stroke (width 0) (type default))
+    (uuid c49bc302-7517-4d3c-b4ca-621c155b1295)
+  )
+  (wire (pts (xy 53.34 71.12) (xy 53.34 83.82))
+    (stroke (width 0) (type default))
+    (uuid c670ce8a-6c2a-40ab-8735-d9c9aa3c3779)
+  )
+  (wire (pts (xy 231.14 64.77) (xy 232.41 64.77))
+    (stroke (width 0) (type default))
+    (uuid c6ff3c91-9fc1-4b7b-be25-7020745d4a1c)
+  )
+  (polyline (pts (xy 137.16 149.86) (xy 175.26 149.86))
+    (stroke (width 0) (type default))
+    (uuid c8622626-a17f-485c-b6e9-45da34dcbf05)
+  )
+
+  (wire (pts (xy 44.45 66.04) (xy 45.72 66.04))
+    (stroke (width 0) (type default))
+    (uuid ca872e27-127f-4009-bed5-bbd24736c4e5)
+  )
+  (wire (pts (xy 53.34 54.61) (xy 53.34 58.42))
+    (stroke (width 0) (type default))
+    (uuid cc03b2b3-11e6-4323-9103-e9be1e098ce6)
+  )
+  (polyline (pts (xy 60.96 162.56) (xy 60.96 114.3))
+    (stroke (width 0) (type default))
+    (uuid cd4c8117-aa1c-4a4f-b4bc-e058f25acf41)
+  )
+
+  (wire (pts (xy 53.34 83.82) (xy 58.42 83.82))
+    (stroke (width 0) (type default))
+    (uuid ce06dc64-99d0-4047-9fac-0d40a015786c)
+  )
+  (wire (pts (xy 36.83 146.05) (xy 31.75 146.05))
+    (stroke (width 0) (type default))
+    (uuid ce6dd13c-8437-4620-8bd3-7ce6041164a3)
+  )
+  (wire (pts (xy 270.51 55.88) (xy 270.51 54.61))
+    (stroke (width 0) (type default))
+    (uuid cf51a1ed-708e-4fae-a09b-f4578bc526a5)
+  )
+  (wire (pts (xy 53.34 58.42) (xy 67.31 58.42))
+    (stroke (width 0) (type default))
+    (uuid d1a1dd57-b9c1-4e23-a8ed-5edbea97caf5)
+  )
+  (wire (pts (xy 276.86 57.15) (xy 276.86 54.61))
+    (stroke (width 0) (type default))
+    (uuid d26081ef-f823-4b19-a54e-d5ac4f2f0d45)
+  )
+  (wire (pts (xy 240.03 36.83) (xy 240.03 34.29))
+    (stroke (width 0) (type default))
+    (uuid d472be1a-4a15-441c-9984-10999e4ab005)
+  )
+  (wire (pts (xy 93.98 86.36) (xy 93.98 83.82))
+    (stroke (width 0) (type default))
+    (uuid d806f87d-6aa4-4f4c-916d-35ca940eb975)
+  )
+  (wire (pts (xy 55.88 180.34) (xy 62.23 180.34))
+    (stroke (width 0) (type default))
+    (uuid dfccd7df-f61c-4c6c-b579-82eba59f4892)
+  )
+  (wire (pts (xy 38.1 129.54) (xy 38.1 127))
+    (stroke (width 0) (type default))
+    (uuid e081efac-6ece-4236-bd64-f65dc4207705)
+  )
+  (wire (pts (xy 195.58 59.69) (xy 195.58 57.15))
+    (stroke (width 0) (type default))
+    (uuid e0924fe7-69b7-4494-bf29-023f622a9f01)
+  )
+  (wire (pts (xy 31.75 153.67) (xy 34.29 153.67))
+    (stroke (width 0) (type default))
+    (uuid e1f6ec65-27b8-411a-928f-756fe933c5eb)
+  )
+  (wire (pts (xy 52.07 175.26) (xy 62.23 175.26))
+    (stroke (width 0) (type default))
+    (uuid e20f913f-a74f-49c4-8d99-95230d92d69e)
+  )
+  (wire (pts (xy 240.03 54.61) (xy 255.27 54.61))
+    (stroke (width 0) (type default))
+    (uuid e3834159-ca16-4097-858c-f2cf845a8573)
+  )
+  (wire (pts (xy 22.86 180.34) (xy 45.72 180.34))
+    (stroke (width 0) (type default))
+    (uuid e52432ac-0f72-46d8-bcd5-7c94e6c50897)
+  )
+  (wire (pts (xy 275.59 81.28) (xy 275.59 78.74))
+    (stroke (width 0) (type default))
+    (uuid ee068241-a567-4364-bdb7-d2554209322b)
+  )
+  (wire (pts (xy 62.23 175.26) (xy 72.39 175.26))
+    (stroke (width 0) (type default))
+    (uuid f09d4f95-2294-4e58-8c86-bc1914b2a3ed)
+  )
+  (wire (pts (xy 88.9 59.69) (xy 68.58 59.69))
+    (stroke (width 0) (type default))
+    (uuid f1a3be10-a90b-4f18-a843-e2bf0549c279)
+  )
+  (wire (pts (xy 270.51 78.74) (xy 270.51 81.28))
+    (stroke (width 0) (type default))
+    (uuid f2c089b9-3c21-48a8-805a-4b240b6ce146)
+  )
+  (wire (pts (xy 104.14 180.34) (xy 102.87 180.34))
+    (stroke (width 0) (type default))
+    (uuid f3879e6c-5bbf-4e69-8d06-2b7731884e68)
+  )
+  (wire (pts (xy 194.31 83.82) (xy 194.31 81.28))
+    (stroke (width 0) (type default))
+    (uuid f4ce4244-bbe9-43fd-8f2d-903f18bc2fd3)
+  )
+  (wire (pts (xy 147.32 55.88) (xy 166.37 55.88))
+    (stroke (width 0) (type default))
+    (uuid feb800cc-bfa0-4e9a-be3c-6cc749237754)
+  )
+  (polyline (pts (xy 13.97 114.3) (xy 60.96 114.3))
+    (stroke (width 0) (type default))
+    (uuid fefd02f6-40d3-4e3f-a525-d8ae27c8919a)
+  )
+
+  (text "Phase V " (at 146.05 22.86 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0dc58a09-3f80-4786-a359-cad91751957b)
+  )
+  (text "M3 Montagelöcher" (at 213.36 154.94 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1474d2cf-58b1-4773-ba5b-f8e27a9514a3)
+  )
+  (text "Nah zum Stecker" (at 114.3 172.72 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1ec88a18-8379-47b3-af95-e3882aa81a65)
+  )
+  (text "Temperaturmessschaltung" (at 138.43 152.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 23ad635c-156f-4857-9913-bb003e106a83)
+  )
+  (text "Phase U" (at 52.07 24.13 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 27b27746-d8bd-45db-950d-26ba5cde4219)
+  )
+  (text "Bei VM = 51V -> Vm_sense = 3V\nUmrechnung: Vm_sense * (85/5) = VM"
+    (at 20.32 162.56 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2d891b51-c2ab-4b09-9662-fbad2aba846f)
+  )
+  (text "Phase W" (at 238.76 22.86 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8347bbec-4d73-42fc-a241-5e3ee08666bc)
+  )
+  (text "55V Arbeitsspannung\n60V Breakdownvoltage" (at 104.14 189.23 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9459025b-0916-4dd1-8819-f6a3c4b8e6e0)
+  )
+  (text "Nah and den Shunt Widerstand!!!" (at 154.94 100.33 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b959d61e-dc2c-4ba5-a07a-b0467a43170f)
+  )
+  (text "100uF\nauf die Unterseite" (at 52.07 172.72 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cb9fdcc2-aa62-4944-97d9-cc640e15ffbe)
+  )
+  (text "Für jede Phase drei Keramik-Kondensator" (at 81.28 184.15 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cc93e94b-ff93-4b13-a313-fee2cea49ff1)
+  )
+  (text "Batterie Anschluss" (at 60.96 167.64 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e19dd0f9-a87c-4e35-9678-087292782810)
+  )
+  (text "Nah an den MosFETs Platzieren" (at 138.43 154.94 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f467f00b-b683-4775-b458-01be4c536774)
+  )
+  (text "VM Messschaltung" (at 15.24 118.11 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f675d658-6120-4be3-9bd6-83018a02a3a9)
+  )
+  (text "10uF zu jeder\nPhase" (at 86.36 173.99 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f8bb69d5-df6e-4964-96d6-a022eae145ba)
+  )
+
+  (global_label "Phase_V_GND" (shape input) (at 160.02 87.63 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0965f93e-833b-47f0-8946-37933d98aa94)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 175.5048 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "Phase_V_Gate_H" (shape input) (at 138.43 41.91 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 27d1fa28-0362-4763-b5aa-f40b27c8f0f6)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 120.2843 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "Phase_U_Gate_H" (shape input) (at 44.45 43.18 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2b3f11c3-cc23-4348-a3e5-e3ce18e79bc1)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 26.0624 43.18 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "Phase_V_Gate_L" (shape input) (at 138.43 64.77 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 330f8d57-9eb4-4e9d-b5b5-91e552481332)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 120.5867 64.77 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ADC3_2" (shape input) (at 153.67 175.26 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 414b9e67-edd3-4a8f-8f04-e5cdc6befc13)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 163.591 175.26 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "Phase_U_GND" (shape input) (at 58.42 88.9 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 630d8fc1-d226-4897-8f8d-7822641d62fb)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 74.1467 88.9 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "ADC1_3" (shape input) (at 196.85 73.66 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 688a3268-eac1-402f-b61d-6262b5be3733)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 206.771 73.66 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "Phase_V_Source_H" (shape input) (at 143.51 53.34 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 7f33e171-ade8-42b2-b182-7e6bbd1b6ae2)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 123.1267 53.34 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ADC2_3" (shape input) (at 276.86 71.12 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8a4695d5-71ce-49a5-9a88-807706b725d7)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 286.781 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "ADC321_4" (shape input) (at 95.25 76.2 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8e22dc20-f53a-448a-8298-2a3abf84d39a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 107.59 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "Phase_W_Source_H" (shape input) (at 236.22 53.34 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 9fb19ec4-ce15-46ed-befe-205cc2287b93)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 215.4739 53.34 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "Phase_U_Gate_L" (shape input) (at 44.45 66.04 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a29264ab-fb60-4bb9-8031-6c274302c02a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 26.3648 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "Phase_V_Source_L" (shape input) (at 160.02 82.55 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a7c90bd4-5f9b-4fcd-82b3-b8153aa602c0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 180.1009 82.55 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "Phase_U_Source_H" (shape input) (at 52.07 54.61 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a87399a1-085a-4cf0-9d07-0d82d03f59ba)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 31.4448 54.61 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ADC3_1" (shape input) (at 41.91 143.51 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid bf5a2503-f81f-41f7-9b8e-22822404a489)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 51.831 143.51 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "Phase_U_Source_L" (shape input) (at 58.42 83.82 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d3637298-9c1c-42bc-a550-f1ce50d2d7e2)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 78.7428 83.82 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "Phase_W_GND" (shape input) (at 241.3 87.63 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e684920b-c6a6-40b7-b6d5-a00ad91024b8)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 257.1476 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "Phase_W_Gate_L" (shape input) (at 231.14 64.77 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e873ae99-269e-42fd-8c99-4553f0d9215f)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 212.9339 64.77 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "Phase_W_Gate_H" (shape input) (at 231.14 41.91 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid fd87fe7a-e0d5-4c35-9d69-4d01d916b306)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 212.6315 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "Phase_W_Source_L" (shape input) (at 241.3 80.01 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ff0b69e2-7e87-4244-ae4a-91f7cb8ee1fe)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 261.2512 79.9306 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 91.44 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00695daf-13be-4aa8-aff7-1d35376b5a12)
+    (property "Reference" "#PWR0129" (at 91.44 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 91.44 90.17 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 91.44 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 91.44 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 82d84c63-73b6-4de7-9e2a-cedfc910825b))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR0129") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "#PWR0129") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR061") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Schottky") (at 38.1 133.35 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 023d9803-3afe-47c3-a3a4-26cfe41af740)
+    (property "Reference" "D_VBAT1" (at 40.64 132.3975 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "RB751S-40DP-TP" (at 40.64 134.9375 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_0201_0603Metric" (at 38.1 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_STMicroelectronics-BAT30KFILM_C2926449.html" (at 38.1 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b64109f4-4434-4130-b091-f3d948364d2c))
+    (pin "2" (uuid a2ca5f9e-9324-42b3-8b52-b139fcb062e7))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "D_VBAT1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "D_VBAT1") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "D_VBAT1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "D_VBAT1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 53.34 96.52 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 02c032a5-1033-4810-b1f1-1c7e64d57c4d)
+    (property "Reference" "#PWR058" (at 53.34 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 53.213 101.6 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 53.34 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 53.34 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a291dc03-1dcf-4408-b633-7dc4d85db1f9))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR058") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR058") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR058") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "#PWR058") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 189.23 60.96 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 06a07b94-dea0-412a-a0a6-bf4b751f4dbc)
+    (property "Reference" "R_BAT1" (at 184.15 62.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "40k" (at 185.42 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 189.23 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 189.23 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 503ac807-a08d-409b-954e-8cfc3c89b085))
+    (pin "2" (uuid 29426b0b-cdc1-4720-a9f0-74172477aecb))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_BAT5") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_sense_V1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 88.9 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 14185706-69ae-4542-83ba-d1bc961db5d2)
+    (property "Reference" "R_BAT2" (at 83.82 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "40k" (at 85.09 69.85 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 88.9 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.9 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1b248912-25fb-412d-97c2-e2d9f3db3dfa))
+    (pin "2" (uuid 09e0c6d8-2129-45a3-bd58-b8ec373c9331))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_BAT2") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_BAT4") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_BAT2") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_sense_U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 83.82 177.8 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 141ac0da-35c6-4dd1-8f34-ddc4f2975161)
+    (property "Reference" "C_IN4" (at 91.44 179.07 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 91.44 176.53 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 83.82 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 83.82 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 09495b21-b034-4d11-a5f1-be6c55bf74a1))
+    (pin "2" (uuid 043213b1-e114-4829-a7fd-2664ae29042f))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "C_IN4") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "C_IN4") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "C_IN4") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "C_IN4") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "C_IN?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "C_IN4") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "C_IN4") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "C_IN4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 275.59 76.2 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 15f774e3-b321-4c39-a862-dbb305e5bb4c)
+    (property "Reference" "C_VM_1" (at 278.13 74.93 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10n" (at 278.13 77.4638 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 275.59 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 275.59 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7c6de08c-d7a2-43c5-a974-0a671cb18e7d))
+    (pin "2" (uuid e811a8e4-7ef3-4538-91e2-c3396a4e1a39))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "C_VM_1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "C_VM_4") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "C_VM_1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "C_sense_W1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Schottky") (at 195.58 63.5 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1ed104a1-b98a-4aa6-88d3-612e1a43c716)
+    (property "Reference" "D_VBAT1" (at 198.12 62.5475 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "RB751S-40DP-TP" (at 198.12 65.0875 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_0201_0603Metric" (at 195.58 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_STMicroelectronics-BAT30KFILM_C2926449.html" (at 195.58 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid abd07069-1e58-461a-b768-e23c6d999295))
+    (pin "2" (uuid 63555f33-c84b-49ef-83df-561c919e6e2d))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "D_VBAT1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "D_VBAT3") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "D_VBAT1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "D_sense_V1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Polarized_Small") (at 52.07 177.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2ada1cbd-f0f4-4290-bff2-cf9124d0e556)
+    (property "Reference" "C_IN1" (at 54.61 175.9838 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100u" (at 54.61 178.5238 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:CP_Elec_10x10" (at 52.07 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.de/ProductDetail/Vishay-BC-Components/MAL215099702E3?qs=bKenfurwlskcHT6%252BSvdJwA%3D%3D" (at 52.07 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 78494f61-beda-431a-9d6d-58ea254a2dad))
+    (pin "2" (uuid c6ee47e1-a491-4a71-ac1f-7ca0d6fa617c))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "C_IN1") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "C_IN1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "C_IN1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "C_IN1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "C_IN?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "C_IN1") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "C_IN1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "C_IN1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 189.23 78.74 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2aed9c38-4a7f-4597-9f04-02a31eabba32)
+    (property "Reference" "R_VM_1" (at 184.15 80.01 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5K" (at 185.42 77.47 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 189.23 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 189.23 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 287f83cf-095a-4854-8faa-af87481d2787))
+    (pin "2" (uuid 3984ca48-4b5d-4171-b6d7-4e7dd49165fd))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_VM_1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_VM_3") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_VM_1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_sense_V3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 157.48 180.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 360b7ef5-a0c1-4c92-ba1d-1d65ee1bdb8f)
+    (property "Reference" "C_SENS_Temp1" (at 160.02 179.07 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 160.02 181.6038 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 157.48 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 157.48 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 48713201-23e0-4c5b-bea6-67489a7eebc6))
+    (pin "2" (uuid a59fa27a-e810-4d46-8a92-a209d217c91a))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "C_SENS_Temp1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "C_SENS_Temp1") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "C_SENS_Temp1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "C_SENS_Temp1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 104.14 177.8 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 37f8193a-6934-4125-9ba3-b97f8335e452)
+    (property "Reference" "C_IN6" (at 111.76 179.07 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 111.76 176.53 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 104.14 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 104.14 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bf779dd4-1765-4a7f-8027-6dd07946521a))
+    (pin "2" (uuid 3314df3e-4187-4f61-a336-fe4f7b0ec8ff))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "C_IN6") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "C_IN6") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "C_IN6") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "C_IN6") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "C_IN?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "C_IN6") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "C_IN6") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "C_IN6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 31.75 138.43 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 38bc002a-bcbb-4fb8-bfff-efb09539f648)
+    (property "Reference" "R_BAT2" (at 26.67 139.7 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "40k" (at 27.94 137.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 31.75 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 31.75 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8d729556-f805-4cd4-88e5-f7f2a3917a5c))
+    (pin "2" (uuid 8e382042-01e6-4732-bfdc-32a4fecfe493))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_BAT2") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_BAT2") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_BAT2") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_BAT2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 255.27 52.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 395dc5ee-dedf-414d-ba58-50aebb7c851a)
+    (property "Reference" "Phase_W1" (at 257.81 50.165 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 257.81 52.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom" (at 255.27 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 255.27 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9869c4f5-b057-41d5-bdd9-1167d4877098))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Phase_W1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Phase_W1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Phase_W1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 147.32 95.25 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 405f477b-3160-4754-8892-34971bbfcf4b)
+    (property "Reference" "#PWR066" (at 147.32 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 147.193 100.33 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 147.32 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 147.32 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 11819842-6ab0-49a7-9dbe-f1392abb6717))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR066") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR066") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR066") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "#PWR066") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 152.4 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 48e3cfaf-6bba-45ee-bfcd-bc3a4d620af9)
+    (property "Reference" "#PWR0125" (at 152.4 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 152.4 160.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 152.4 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 152.4 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 72a6df56-f749-443f-8b39-eeeaf7c2b757))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR0125") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "#PWR0125") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 208.28 158.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4abd005b-5375-47a5-8d7a-238acd419fb3)
+    (property "Reference" "H2" (at 210.82 157.4799 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 210.82 160.0199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965" (at 208.28 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 208.28 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "H?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 270.51 76.2 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4ce09d0b-12a7-4267-a758-c2ec37a39851)
+    (property "Reference" "R_VM_1" (at 265.43 77.47 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5K" (at 266.7 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 270.51 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 270.51 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d512ccc7-8d24-42f8-96ca-1da70724d775))
+    (pin "2" (uuid 3a0e2a29-8f26-4f5d-a3f8-9c8e9faeed3f))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_VM_1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_VM_4") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_VM_1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_sense_W3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 240.03 95.25 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4ed4bcc9-ae22-4cfc-a86d-b3914757db1e)
+    (property "Reference" "#PWR074" (at 240.03 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 239.903 100.33 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 240.03 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 240.03 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 14cef245-729b-4380-bc4e-93fdfb148441))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR074") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR074") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR019") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR074") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "#PWR074") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "#PWR033") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 147.32 85.09 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 52e11ed8-b19c-4c6a-8e41-040b955ae19a)
+    (property "Reference" "Rs_P_V1" (at 142.24 86.36 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5m" (at 142.24 83.82 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 147.32 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 147.32 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid de3aefd2-4903-4eb8-8ec5-3fe1516970bc))
+    (pin "2" (uuid f24f85a0-ca4c-4ff1-a3b1-c378cee2c972))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Rs_P_V1") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Rs_P_V1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Rs_P_V1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Rs_P_V1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "Rs_P_V?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "Rs_P_V1") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "Rs_P_V1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Rs_P_V1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 154.94 185.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 54fe178d-3bcc-48f6-826a-54689822c8cb)
+    (property "Reference" "#PWR0126" (at 154.94 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 154.94 189.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 154.94 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 154.94 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ba51b2d5-f47c-4501-891f-e395fc392bd5))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR0126") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "#PWR0126") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR056") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Polarized_Small") (at 62.23 177.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 55aed856-939f-4dbe-ab10-cc87c8062668)
+    (property "Reference" "C_IN2" (at 64.77 175.9838 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100u" (at 64.77 178.5238 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:CP_Elec_10x10" (at 62.23 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.de/ProductDetail/Vishay-BC-Components/MAL215099702E3?qs=bKenfurwlskcHT6%252BSvdJwA%3D%3D" (at 62.23 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2035ea5f-783b-4e4e-8c10-7c6ef13186c8))
+    (pin "2" (uuid 848c5e12-d7e1-4bdf-82a0-554edd363053))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "C_IN2") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "C_IN2") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "C_IN2") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "C_IN2") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "C_IN1") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "C_IN2") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "C_IN2") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "C_IN2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 93.98 81.28 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 597fca2e-a24f-473b-a71d-7ea60bd1d864)
+    (property "Reference" "C_VM_1" (at 96.52 80.01 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10n" (at 96.52 82.5438 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 93.98 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 93.98 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9226a1fc-2445-4c63-81c6-f9036d9a44e5))
+    (pin "2" (uuid 5f374ff8-8122-407c-bc46-c61160d7ca9a))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "C_VM_1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "C_VM_2") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "C_VM_1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "C_sense_U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 191.77 83.82 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5e5bd949-9cfb-4de8-bacd-c91b6277be3e)
+    (property "Reference" "#PWR0129" (at 191.77 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 191.77 87.63 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 191.77 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 191.77 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d97bb1da-1022-47a2-a81d-a6ab72828609))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR0129") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "#PWR0129") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 270.51 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5f040be8-fae5-45b6-82b0-ece99c6e6d39)
+    (property "Reference" "R_BAT2" (at 265.43 67.31 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "40k" (at 266.7 64.77 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 270.51 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 270.51 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 17de47f2-293e-413b-b760-b0e41ab28e23))
+    (pin "2" (uuid c9c61183-559d-4050-988b-3c507432f296))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_BAT2") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_BAT8") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_BAT2") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_sense_W2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 152.4 180.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 642f893c-ce89-485f-bce2-d66c7858a8c0)
+    (property "Reference" "R_SENS_Temp1" (at 144.78 181.61 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4k7" (at 148.59 179.07 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 152.4 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 152.4 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8c8f110f-d097-406c-98a9-953fb85f946d))
+    (pin "2" (uuid 5c4c32a2-e9b5-4913-adb1-6c23ac1d7868))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_SENS_Temp1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_SENS_Temp1") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_SENS_Temp1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_SENS_Temp1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 22.86 171.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 66569485-43ac-4ff9-8423-2ea71e096c27)
+    (property "Reference" "Positiv1" (at 25.4 169.545 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 25.4 172.085 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom" (at 22.86 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 22.86 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 595d580a-1226-41d5-b5d9-ecfaa1a1a59e))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Positiv1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Positiv1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Positiv1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 22.86 182.88 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6bce2716-8367-4a2c-a5a0-f9c23dbd5d5d)
+    (property "Reference" "Negativ1" (at 25.4 183.515 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "MountingHole_Pad" (at 25.4 186.055 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom" (at 22.86 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 22.86 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 673e5d7d-e04a-4b90-ab7f-80462ac06fcf))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Negativ1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Negativ1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Negativ1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 273.05 81.28 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6d0c1ffe-5676-4d81-9c14-acd5b09d59df)
+    (property "Reference" "#PWR0129" (at 273.05 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 273.05 85.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 273.05 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 273.05 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f68771b4-c413-4874-9fb5-27c693decec9))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR0129") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "#PWR0129") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR064") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 38.1 127 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6d2f29ad-3f00-43e7-a9a8-2dd41b10e40f)
+    (property "Reference" "#PWR0131" (at 38.1 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 38.1 123.19 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 38.1 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 38.1 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c1c7d82b-4415-485e-8caf-11dd51c50808))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR0131") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "#PWR0131") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR059") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 194.31 78.74 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 726b0461-91ce-4e5f-8126-a9984738499b)
+    (property "Reference" "C_VM_1" (at 196.85 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10n" (at 196.85 80.0038 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 194.31 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 194.31 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b0fd00f4-fe70-48a4-ba11-11a770b00f9f))
+    (pin "2" (uuid d8b76775-e9ca-447e-9576-32a29137ae87))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "C_VM_1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "C_VM_3") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "C_VM_1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "C_sense_V1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_TVS") (at 118.11 177.8 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 74d16dbb-3f8a-4e98-a818-4ae61ee00167)
+    (property "Reference" "D_TVS1" (at 120.65 176.5299 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "SMF54CA " (at 120.65 179.0699 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 118.11 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 118.11 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 27169512-fcb9-4fc5-aaee-14919ac27a2f))
+    (pin "2" (uuid 814ae259-0278-4ea2-84b5-e42f3b8b9499))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "D_TVS1") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "D_TVS1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "D_TVS1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "D_TVS1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "D_TVS?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "D_TVS1") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "D_TVS1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "D_TVS1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 226.06 158.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7820b6fe-1832-45a4-b747-8e2bfbddfd0c)
+    (property "Reference" "H3" (at 228.6 157.4799 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 228.6 160.0199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965" (at 226.06 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 226.06 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "H?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Thermistor_NTC") (at 152.4 168.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7b18d274-8528-4613-83c6-62ebfb8c292a)
+    (property "Reference" "NTC1" (at 154.94 167.9574 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 154.94 170.4974 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 152.4 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 152.4 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a96dcb34-804f-461c-b66d-4fba5b4c42f3))
+    (pin "2" (uuid c7f34122-b112-4922-83dc-e81df184f037))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "NTC1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "NTC1") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "NTC1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "NTC1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Schottky") (at 276.86 60.96 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8363ecdb-99fb-48e7-be0b-f31ef266e1bd)
+    (property "Reference" "D_VBAT1" (at 279.4 60.0075 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "RB751S-40DP-TP" (at 279.4 62.5475 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_0201_0603Metric" (at 276.86 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_STMicroelectronics-BAT30KFILM_C2926449.html" (at 276.86 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 291816da-19d4-439a-b314-8d86fddc6bc1))
+    (pin "2" (uuid bad1409e-3a97-44ee-a36b-611004c2fa76))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "D_VBAT1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "D_VBAT4") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "D_VBAT1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "D_sense_W1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+BATT") (at 53.34 35.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 855a3bbc-5155-4a52-9490-d3fadd05571d)
+    (property "Reference" "#PWR057" (at 53.34 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT" (at 53.34 30.48 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 53.34 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 53.34 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ce99278d-f084-4c74-88d8-73b8c5dca4ec))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 31.75 130.81 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 85de4274-8ba1-4ba9-8555-b49318532aad)
+    (property "Reference" "R_BAT1" (at 26.67 132.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "40k" (at 27.94 129.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 31.75 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 31.75 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 292c420f-8bff-4022-ae5b-64b3d2f4268d))
+    (pin "2" (uuid a8f3683d-d363-4e5a-835c-ec1ed405bb48))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 166.37 53.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8600bbc9-194c-4591-9e37-929cf8f6ea67)
+    (property "Reference" "Phase_V1" (at 168.91 51.435 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 168.91 53.975 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom" (at 166.37 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 166.37 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cc0a35d5-9665-4bdd-91a0-a21ca79653db))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Phase_V1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Phase_V1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Phase_V1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_FET:Si7336ADP") (at 144.78 64.77 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8be8b341-8867-44db-8a58-fe467df4e102)
+    (property "Reference" "Q_P_V_L1" (at 148.59 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "SiR584DP" (at 148.59 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO:PowerPAK_SO-8_Single" (at 149.86 66.675 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.mouser.de/datasheet/2/427/sir584dp-2953443.pdf" (at 144.78 64.77 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid eea11820-bbfb-4d1d-a223-c1766d9e4bf1))
+    (pin "2" (uuid 81cba93c-8fdd-4202-93b9-2fcf07718c3d))
+    (pin "3" (uuid f98ec014-12e3-465c-9333-f6c18086949b))
+    (pin "4" (uuid 67bd4067-7985-451c-82cb-b858a62260f3))
+    (pin "5" (uuid 8cbeff52-a9ce-4bb5-81dd-0adbf32fb3a1))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Q_P_V_L1") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Q_P_V_L1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Q_P_V_L1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Q_P_V_L1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "Q_P_V_L?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "Q_P_V_L1") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "Q_P_V_L1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Q_P_V_L1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 270.51 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8de1996e-f8a3-4411-b2cc-0ae079468f94)
+    (property "Reference" "R_BAT1" (at 265.43 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "40k" (at 266.7 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 270.51 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 270.51 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c35bd572-1aa9-433b-8322-d904813530ff))
+    (pin "2" (uuid fd7c2730-fdea-4685-ace7-7788e15e7a85))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_BAT7") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_sense_W1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 88.9 81.28 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 97253c34-ce3d-4fce-8ad6-579bf754ca3c)
+    (property "Reference" "R_VM_1" (at 83.82 82.55 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5K" (at 85.09 80.01 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 88.9 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.9 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fe8f7f24-4883-46c0-96e9-9ed08ed50642))
+    (pin "2" (uuid b5ac6700-ceb8-4271-9cc1-f31c03bdc817))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_VM_1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_VM_2") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_VM_1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_sense_U2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 45.72 182.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 974f44c3-f18a-4184-9a38-f118d2d1fece)
+    (property "Reference" "#PWR056" (at 45.72 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 45.593 187.96 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 45.72 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 45.72 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 270fb761-97fb-4388-9b4b-47ccda70b30f))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR056") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR056") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR056") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "#PWR056") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+BATT") (at 240.03 34.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9e9c7ff7-a8c0-4962-bd96-66ca20bfc526)
+    (property "Reference" "#PWR073" (at 240.03 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT" (at 240.03 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 240.03 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 240.03 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9abb934a-a56f-4980-900a-f7831ad49550))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR073") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR073") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR018") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR073") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "#PWR073") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "#PWR032") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 276.86 54.61 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid aad2ad65-c20d-4dab-9924-c8e983ce6f40)
+    (property "Reference" "#PWR0131" (at 276.86 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 276.86 50.8 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 276.86 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 276.86 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 855aea24-0811-4b3f-a4fc-6b6168ff2c4f))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR0131") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "#PWR0131") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR065") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 189.23 68.58 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid afca4507-7766-4188-bfab-ff0018c6ac2d)
+    (property "Reference" "R_BAT2" (at 184.15 69.85 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "40k" (at 185.42 67.31 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 189.23 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 189.23 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 011d9d19-e9d1-449f-93bd-14e4b0a0ed78))
+    (pin "2" (uuid 7d3b9658-7668-4310-b514-8f289425ef34))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_BAT2") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_BAT6") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_BAT2") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_sense_V2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+BATT") (at 31.75 127 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c12389a5-d32e-4599-8ff1-30578d2e1f0b)
+    (property "Reference" "#PWR0130" (at 31.75 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT" (at 31.75 121.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 31.75 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 31.75 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a224971e-1829-47cc-ab51-1f29873db002))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR0130") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "#PWR0130") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 36.83 148.59 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c6724186-ef2d-4129-9bcf-430bc2f4af3c)
+    (property "Reference" "C_VM_1" (at 39.37 147.32 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 39.37 149.8538 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 36.83 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 36.83 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 13a63eba-e085-4759-ae29-91809704b710))
+    (pin "2" (uuid b9631e66-3d45-4188-8b5f-8fd7ee2937d5))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "C_VM_1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "C_VM_1") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "C_VM_1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "C_VM_1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+BATT") (at 45.72 172.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c758989c-537b-40f8-bc96-61d1004aa558)
+    (property "Reference" "#PWR055" (at 45.72 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT" (at 45.72 167.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 45.72 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 45.72 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7d73277c-93f9-482a-90b0-2ede82675b50))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+BATT") (at 147.32 34.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cd344293-b0d1-44e0-ac89-ff27754efc49)
+    (property "Reference" "#PWR065" (at 147.32 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT" (at 147.32 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 147.32 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 147.32 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c728937e-8e68-4469-99d4-10031e7a4b32))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR065") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR065") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "#PWR065") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "#PWR065") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 34.29 153.67 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d1e1a811-c7f6-4af5-a103-bd3a29dea8d0)
+    (property "Reference" "#PWR0129" (at 34.29 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 34.29 157.48 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 34.29 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 34.29 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b643b2c1-6ba8-4ccf-a97b-42f32975726d))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR0129") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "#PWR0129") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR058") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_FET:Si7336ADP") (at 237.49 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d2e235fd-b586-4063-81f1-bc69d3c9a7b5)
+    (property "Reference" "Q_P_W_H1" (at 242.57 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "SiR584DP" (at 242.57 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO:PowerPAK_SO-8_Single" (at 242.57 43.815 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.mouser.de/datasheet/2/427/sir584dp-2953443.pdf" (at 237.49 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 3cb60e07-ab69-4fd0-a1c9-c2633e4582a9))
+    (pin "2" (uuid 4e846a4b-ce4e-4fe8-86bf-0feb1286d7e6))
+    (pin "3" (uuid a57cf1f3-458e-4aa4-9722-716be9392660))
+    (pin "4" (uuid 7ea843ef-24d0-48bf-861d-4695efc57873))
+    (pin "5" (uuid 6bace9f6-b10b-47d8-9398-f809f26a9235))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Q_P_W_H1") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Q_P_W_H1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Q_P_W_H1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Q_P_W_H1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "Q_P_W_H?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "Q_P_W_H1") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "Q_P_W_H1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Q_P_W_H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 93.98 177.8 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d5ef0ebb-e7db-4753-8efb-a42693eb12d2)
+    (property "Reference" "C_IN5" (at 101.6 179.07 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 101.6 176.53 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 93.98 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 93.98 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 792a94a3-9b76-4beb-bb3f-7469586c33c9))
+    (pin "2" (uuid 4bb92926-f4c9-47c5-9e99-ab3d2f358d75))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "C_IN5") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "C_IN5") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "C_IN5") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "C_IN5") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "C_IN?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "C_IN5") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "C_IN5") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "C_IN5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 67.31 55.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d6286296-1041-49ea-9939-45ddc14da4ad)
+    (property "Reference" "Phase_U1" (at 69.85 53.975 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 69.85 56.515 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom" (at 67.31 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 67.31 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4c82a5ec-c5bf-47f9-8c5d-9ec9eca97b36))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Phase_U1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Phase_U1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Phase_U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_FET:Si7336ADP") (at 144.78 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d6962fec-5e4e-4efb-af98-13916eba3313)
+    (property "Reference" "Q_P_V_H1" (at 149.86 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "SiR584DP" (at 149.86 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO:PowerPAK_SO-8_Single" (at 149.86 43.815 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.mouser.de/datasheet/2/427/sir584dp-2953443.pdf" (at 144.78 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 8124c4d0-d097-4f46-8e03-f697936e1a08))
+    (pin "2" (uuid 7089063f-283a-4042-8dd3-407be3911bdc))
+    (pin "3" (uuid 5dda5bcf-9e19-49a0-bd6e-bb74130b1d0f))
+    (pin "4" (uuid 6dd2f90f-895e-449f-a549-c14a2362b73d))
+    (pin "5" (uuid 9fdb5f3c-f9a1-46f9-8824-e7b460758b8b))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Q_P_V_H1") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Q_P_V_H1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Q_P_V_H1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Q_P_V_H1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "Q_P_V_H?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "Q_P_V_H1") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "Q_P_V_H1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Q_P_V_H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_FET:Si7336ADP") (at 50.8 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d7b0b57a-3d5a-4de6-8cc9-e8aae03ffe4e)
+    (property "Reference" "Q_P_U_H1" (at 55.88 45.72 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "SiR584DP" (at 55.88 48.26 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO:PowerPAK_SO-8_Single" (at 55.88 45.085 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.mouser.de/datasheet/2/427/sir584dp-2953443.pdf" (at 50.8 43.18 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 51a80acf-2caf-4b4b-936f-d67c4eafda0a))
+    (pin "2" (uuid f1996d2c-74e8-4d04-9ca4-0804e65ad244))
+    (pin "3" (uuid d02eb966-794b-46f4-a10b-2ea80f1239b6))
+    (pin "4" (uuid e20addec-31fb-4fb5-acc6-672ebd1a73a0))
+    (pin "5" (uuid ea5cf497-2ece-4edd-b33b-97bbe9baf284))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Q_P_U_H1") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Q_P_U_H1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Q_P_U_H1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Q_P_U_H1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "Q_P_U_H?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "Q_P_U_H1") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "Q_P_U_H1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Q_P_U_H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 195.58 57.15 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d81529d8-bcd7-4883-b4d7-7ee176a0abc8)
+    (property "Reference" "#PWR0131" (at 195.58 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 195.58 53.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 195.58 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 195.58 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aab92804-1540-4540-a0a7-a37e51d7f213))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR0131") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "#PWR0131") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR063") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 31.75 148.59 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid da5f7933-bca8-4fe3-be72-f975278bbafa)
+    (property "Reference" "R_VM_1" (at 26.67 149.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5K" (at 27.94 147.32 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 31.75 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 31.75 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0d03f71b-7949-4405-85c5-6142bfd869cc))
+    (pin "2" (uuid 965517bd-66ce-43bb-ab89-8754eaf56c68))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_VM_1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_VM_1") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_VM_1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_VM_1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Schottky") (at 95.25 66.04 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid dbef25a4-160a-4da3-903a-51946ac4d482)
+    (property "Reference" "D_VBAT1" (at 97.79 65.0875 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "RB751S-40DP-TP" (at 97.79 67.6275 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_0201_0603Metric" (at 95.25 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_STMicroelectronics-BAT30KFILM_C2926449.html" (at 95.25 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0ccbf514-b8e7-46e0-bd4b-8b1da90e8b3d))
+    (pin "2" (uuid 1c2f0350-01ed-4519-8525-fd63913c85c7))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "D_VBAT1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "D_VBAT2") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "D_VBAT1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "D_sense_U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 66.04 182.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e1d3f8ca-2715-4a65-9374-1a29cc0cd6b5)
+    (property "Reference" "#PWR060" (at 66.04 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 66.04 187.96 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 66.04 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 66.04 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4b63f5a0-9a7f-4a09-9920-58fba2ba0093))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "Servo_Steuerung"
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/71b1a497-ef0d-4dca-ad97-79f82a63979f"
+          (reference "#PWR060") (unit 1)
+        )
+        (path "/bb103b65-f282-45cc-a78c-00deedb2b4de/b6c7a7f0-b34d-420b-83a5-2427791bd0dd"
+          (reference "#PWR033") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/ab8457a6-e63a-4f11-937b-8688f5eef40d"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "#PWR064") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 95.25 59.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e6507c2a-a502-4099-802d-3777f0f46b23)
+    (property "Reference" "#PWR0131" (at 95.25 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 95.25 55.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 95.25 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 95.25 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 98e7310e-df86-4189-9d7f-201cfeac299d))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR0131") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "#PWR0131") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR062") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 243.84 158.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ea208b51-4bf0-4638-a6e8-23c993199a30)
+    (property "Reference" "H4" (at 246.38 157.4799 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 246.38 160.0199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965" (at 243.84 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 243.84 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "H?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 240.03 83.82 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid eadae96a-b000-47bf-8747-201a14211d66)
+    (property "Reference" "Rs_P_V1" (at 234.95 85.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5m" (at 234.95 82.55 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 240.03 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 240.03 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0cf06cd5-624f-421d-ae50-b837ef711737))
+    (pin "2" (uuid 1188a5fd-5de6-4eb6-9f4e-fd7592807fef))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Rs_P_V1") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Rs_P_V1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Rs_P_V2") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Rs_P_V1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "Rs_P_V?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "Rs_P_V1") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "Rs_P_V1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Rs_P_W1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 88.9 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid eefdb722-ae70-4aa0-92f0-7f12473780c6)
+    (property "Reference" "R_BAT1" (at 83.82 64.77 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "40k" (at 85.09 62.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 88.9 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.9 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 662814bb-21b3-483a-805f-cb6ad692076e))
+    (pin "2" (uuid d1b60886-f459-440d-ad4e-e41fdf5b838b))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "R_BAT3") (unit 1)
+        )
+      )
+      (project "Microcontroller"
+        (path "/aba640ff-9449-49c2-8f25-868e08742f80"
+          (reference "R_BAT1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "R_sense_U3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Polarized_Small") (at 72.39 177.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f1ac7f50-bd7f-4ec0-aedb-ac03fafa9afa)
+    (property "Reference" "C_IN3" (at 74.93 175.9838 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100u" (at 74.93 178.5238 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:CP_Elec_10x10" (at 72.39 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.de/ProductDetail/Vishay-BC-Components/MAL215099702E3?qs=bKenfurwlskcHT6%252BSvdJwA%3D%3D" (at 72.39 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f54c6ad8-c77e-4beb-b32c-6e2ee2d7e48e))
+    (pin "2" (uuid ea1b32ca-1aa5-45b6-a061-8435393f1f78))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "C_IN3") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "C_IN3") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "C_IN3") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "C_IN3") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "C_IN2") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "C_IN3") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "C_IN3") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "C_IN3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 55.88 182.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f4facffc-725f-4d59-a574-bbbeb2bd3dca)
+    (property "Reference" "#PWR036" (at 55.88 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 55.88 187.96 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 55.88 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 55.88 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dcc61c3e-44e0-4835-bd6c-27a78eaac237))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "#PWR036") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/811251a6-2311-424e-9fa8-98f53029de6a"
+          (reference "#PWR036") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/811251a6-2311-424e-9fa8-98f53029de6a"
+          (reference "#PWR036") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "#PWR036") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/83cf1bd1-db0b-42ae-9b39-49e6b820efde"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "#PWR034") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_FET:Si7336ADP") (at 50.8 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f5de4505-2bb3-44d7-be76-118ee2a4d12a)
+    (property "Reference" "Q_P_U_L1" (at 54.61 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "SiR584DP" (at 54.61 72.39 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO:PowerPAK_SO-8_Single" (at 55.88 67.945 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.mouser.de/datasheet/2/427/sir584dp-2953443.pdf" (at 50.8 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid ed3924a3-377e-455e-a59f-2626e8396f75))
+    (pin "2" (uuid 2d49dd0e-614c-4012-b903-1351a0322312))
+    (pin "3" (uuid 89f12cbb-15c0-4469-978e-52ab055dbf02))
+    (pin "4" (uuid 4e7eacf6-7b5b-416d-b6d7-5a14612e1730))
+    (pin "5" (uuid 48095061-fed1-4d3c-8b6f-d7ffbab05a17))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Q_P_U_L1") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Q_P_U_L1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Q_P_U_L1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Q_P_U_L1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "Q_P_U_L?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "Q_P_U_L1") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "Q_P_U_L1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Q_P_U_L1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 53.34 86.36 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f6b01a9d-535f-4226-9448-19dea6f8dcdb)
+    (property "Reference" "Rs_P_U1" (at 48.26 87.63 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5m" (at 48.26 85.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 53.34 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 53.34 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 65190d74-c0c6-4c06-a459-b106ea225ecf))
+    (pin "2" (uuid 78630916-68ac-4db4-ae9e-583895446e6d))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Rs_P_U1") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Rs_P_U1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Rs_P_U1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Rs_P_U1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "Rs_P_U?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "Rs_P_U1") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "Rs_P_U1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Rs_P_U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_FET:Si7336ADP") (at 237.49 64.77 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f8864f77-e071-44a1-9b58-b8e7d3f43eaa)
+    (property "Reference" "Q_P_W_L1" (at 241.3 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "SiR584DP" (at 241.3 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO:PowerPAK_SO-8_Single" (at 242.57 66.675 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.mouser.de/datasheet/2/427/sir584dp-2953443.pdf" (at 237.49 64.77 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 2a56b1fd-e51f-49ec-933b-4be34f8fd450))
+    (pin "2" (uuid b9b60791-37c1-4634-8230-559d0e5268a1))
+    (pin "3" (uuid 09314a25-967d-4fb9-9b8c-f85137e5ce16))
+    (pin "4" (uuid 95247da0-00af-4d7b-a78e-2b6420208aea))
+    (pin "5" (uuid 521794a7-27ac-4444-bd17-859f7d9f1dd0))
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "Q_P_W_L1") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Q_P_W_L1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "Q_P_W_L1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "Q_P_W_L1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "Q_P_W_L?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "Q_P_W_L1") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "Q_P_W_L1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "Q_P_W_L1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 190.5 158.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid fcb28a63-d104-49c1-8c8f-7a36037373b6)
+    (property "Reference" "H1" (at 193.04 157.4799 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 193.04 160.0199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965" (at 190.5 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 190.5 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "MosFET_Brücken"
+        (path "/3da47035-9147-43d8-9411-9a03901ab10a"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "Leistungs_Halbleiter_Platine"
+        (path "/501acba0-ff24-45fb-83a2-857917996bc9/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "BLDC_Driver"
+        (path "/79b49c99-187d-43b0-945f-c7ef1bd05b80/ec5591db-91bd-4e40-8eca-b8ac168c3188"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev2"
+        (path "/8e90f851-2341-403a-8afe-eaa45192ad38/5986bb19-ebb9-4a35-94de-450c6cdb864a/cc93ca57-7c30-45fd-8e4b-660b989362c5"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "Servo_Controller_Rev1_2"
+        (path "/c665bf8f-ade8-4a9d-95ae-f4e3ccaa66bf/4ba1feac-870a-4c6a-a053-4cf064e3e1ce"
+          (reference "H?") (unit 1)
+        )
+      )
+      (project "Halbrücken"
+        (path "/e7f7a671-f2ca-4ba7-bd52-8607b23a711c"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "Servo_Treiber"
+        (path "/ea1ebdd7-dec6-4eb1-939e-043d962958ba/b227df8c-9c41-4a81-949c-e44e09b7804f"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "Leistungsteil"
+        (path "/ecc53b14-7d8c-4cb4-be3f-1bdafa3715b2/fa44c6e7-b410-4363-b591-5e4392f361c9"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+)
